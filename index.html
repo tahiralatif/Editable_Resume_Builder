@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Editable Resume Builder</h1>
+        <form id="resumeForm">
+            <h2>Personal Information</h2>
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <h2>Education</h2>
+            <input type="text" id="education" name="education" required>
+
+            <h2>Work Experience</h2>
+            <textarea id="experience" name="experience" rows="4" required></textarea>
+
+            <h2>Skills</h2>
+            <div id="skillsContainer">
+                <input type="text" name="skills[]" placeholder="Enter a skill" required>
+            </div>
+            <button type="button" id="addSkillButton">Add Another Skill</button>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <div id="resumePreview">
+            <h2>Resume Preview</h2>
+            <!-- Generated resume will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
