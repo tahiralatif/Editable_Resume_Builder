@@ -17,6 +17,12 @@ body {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
 }
+#resumePreview{
+    color: white;
+    background-color: #c9dde9;
+    font-size: 20px;
+   text-align: center;
+}
 
 /* Headings */
 h1, h2 {
@@ -45,5 +51,51 @@ input, textarea {
 
 /* Button styling */
 button {
-    padding: 
+margin: top 20px;;
 }
+#milestone3{
+    text-align: center;
+    text-decoration:underline;
+    font-family: Arial;
+
+}
+#milestone3rd{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35%;
+    
+
+}
+#creater{
+    /* text-align: center;
+    background-color: #bbf3de;
+     */
+     color: #032d38;
+    background-color: #f9fbfd;
+    font-size: 20px;
+    border: 2px solid #0d3546;
+    text-align: center;
+    font-size: 30px;
+
+}
+#submit{
+    
+    color: #032d38;
+    background-color: #f9fbfd;
+    font-size: 20px;
+    border: 2px solid #0d3546;
+}
+#project{
+    background-color: #f6f5f8;
+    color: rgb(6, 11, 51);
+    
+}
+#addSkillButton{
+    
+    color: #032d38;
+    background-color: #f9fbfd;
+    font-size: 20px;
+    border: 2px solid #0d3546;
+}
+
