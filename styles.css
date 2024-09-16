@@ -53,20 +53,19 @@ input, textarea {
 button {
 margin: top 20px;;
 }
-#milestone3{
+#button3{
     text-align: center;
-    text-decoration:underline;
-    font-family: Arial;
-
-}
-#milestone3rd{
     font-family: Arial;
     font-size: 20px;
-    text-align: center;
-    margin-left: 35%;
-    
+   
 
 }
+#parah{
+    font-size: 25px;
+    color: #032d38;
+    
+}
+
 #creater{
     
      color: #032d38;
